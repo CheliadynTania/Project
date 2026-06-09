@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-      "dev": "ts-node src/index.ts",
+      "build": "ts-node src/index.ts",
       "start": "node src/index.ts",
       "migrate": "tsx src/db/migrate.ts"
   },
